@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -92,7 +96,6 @@ main {
 }
 
 
-
 .fucking-header {
     width: 100%;
     background: linear-gradient(180deg, #6F6F7A 0%, #FFFFFF 47.92%);
@@ -103,7 +106,7 @@ main {
     height: 552px;
     padding: 0 15px;
     margin: 0 auto;
-
+    box-sizing: border-box;
 }
 
 .grid-wrapper {
