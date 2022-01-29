@@ -87,20 +87,15 @@ a {
 
 main {
     width: 100%;
-    height: 1000px;
     background-color: #E5E6EB;
-
-}
-
-.wrapper {
-    width: 100%;
     margin: 0 auto;
-
 }
+
+
 
 .fucking-header {
     width: 100%;
-    background: linear-gradient(#6F6F7A, #FFFFFF);
+    background: linear-gradient(180deg, #6F6F7A 0%, #FFFFFF 47.92%);
 }
 
 .grid-header {
@@ -108,6 +103,7 @@ main {
     height: 552px;
     padding: 0 15px;
     margin: 0 auto;
+
 }
 
 .grid-wrapper {
@@ -137,11 +133,11 @@ main {
     grid-row-gap: 32px;
 }
 
-.content-row b{
+.content-row b {
     padding-bottom: 11px;
 }
 
-.content-card{
+.content-card {
     background-color: white;
     border-radius: 8px;
 }
