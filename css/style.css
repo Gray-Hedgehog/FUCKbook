@@ -1,10 +1,12 @@
 body {
     margin: 0;
     position: relative;
+    font: 15px ‘Roboto’, Arial, Helvetica, sans-serif;
 }
 
 a {
     text-decoration: none;
+
 }
 
 main {
@@ -108,17 +110,58 @@ main {
 }
 
 
-.fucking-header {
+.profile-container {
     width: 100%;
     background: linear-gradient(180deg, #6F6F7A 0%, #FFFFFF 47.92%);
 }
 
-.grid-header {
-    width: 941px;
-    height: 552px;
+.profile-header {
+    max-width: 940px;
+    min-width: 390px;
+    height: auto;
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
+}
+
+.profile-row1 img {
+    width: 100%;
+}
+
+.profile-row2 {
+    display: grid;
+    grid-template-columns: 160px auto auto ;
+    padding: 0 30px;
+}
+
+.profile-img {
+    width: 132px;
+    border-radius: 999px;
+    border-color: white;
+}
+
+.profile-img img{
+    width: 100%;
+}
+
+.profile-button{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: end;
+    justify-self: end;
+    padding-bottom: 15px;
+
+}
+.profile-button button{
+    background-color: #0572EF;
+    width: 310px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+}
+.profile-button b{
+    color: white;
+    font-size: 17px;
 }
 
 .grid-wrapper {
