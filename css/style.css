@@ -255,7 +255,7 @@ main {
     display: flex;
     align-items: center;
     justify-items: center;
-    cursor: pointer;
+
 }
 
 .button-gray img{
@@ -271,6 +271,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .button-gray .type1 button {
     width: 110px;
