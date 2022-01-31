@@ -200,6 +200,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1fr;
+    height: 60px;
 }
 
 .row3-section1 {
@@ -223,16 +224,17 @@ main {
     cursor: pointer;
 }
 
-.menu-button:hover {
-    color: #0572EF;
-    border-bottom: 3px solid #0572EF;
-}
+/*.menu-button:hover {*/
+/*    color: #0572EF;*/
+/*    border-bottom: 3px solid #0572EF;*/
+/*    box-sizing: border-box;*/
+/*}*/
 
 .menu-button b {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-    line-height: 18px;
+
 }
 .menu-button:hover b {
     color: #0572EF;
@@ -253,6 +255,12 @@ main {
     display: flex;
     align-items: center;
     justify-items: center;
+    cursor: pointer;
+}
+
+.button-gray img{
+    width: 15px;
+    height: 16px;
 }
 
 .button-gray button {
