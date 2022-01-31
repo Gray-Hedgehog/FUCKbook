@@ -32,7 +32,7 @@ main {
     z-index: 9999;
     background-color: white;
     width: 100%;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .navigation {
@@ -123,7 +123,7 @@ main {
 .profile-container {
     width: 100%;
     background: linear-gradient(180deg, #6F6F7A 0%, #FFFFFF 47.92%);
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .profile-header {
@@ -186,6 +186,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .profile-button b{
     color: white;
@@ -193,27 +194,116 @@ main {
     padding-left: 6px;
 }
 
+.profile-row3 {
+    border-top: 1px solid #CFD0D4;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1fr;
+}
+
+.row3-section1 {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+
+.menu-button {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.menu-button button {
+    background-color: white;
+    width: auto;
+    height: 60px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    color: #0572EF;
+    border-bottom: 3px solid #0572EF;
+}
+
+.menu-button b {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+.menu-button:hover b {
+    color: #0572EF;
+}
+
+.menu-button img {
+    padding-left: 10px;
+}
+
+.row3-section2 {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-self: end;
+    grid-column-gap: 10px;
+}
+
+.button-gray {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.button-gray button {
+    background-color: #E5E6EB;
+    border-radius: 6px;
+    height: 35px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-gray .type1 button {
+    width: 110px;
+}
+
+.button-gray .type2 button {
+    width: 45px;
+}
+
+.button-gray b {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
 .grid-wrapper {
     padding-top: 15px;
     max-width: 878px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns:  361px 502px;
+    grid-template-columns:  361px auto;
     grid-column-gap: 15px;
-
 }
 
 .grid-side {
     display: grid;
+    grid-template-rows: repeat(4, auto);
+    align-content: start;
     grid-row-gap: 16px;
 }
 
 
 .side-row {
+    display: flex;
+    align-self: start;
+    /*justify-self: start;*/
     background-color: white;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .grid-content {
@@ -231,5 +321,5 @@ main {
 .content-card {
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
