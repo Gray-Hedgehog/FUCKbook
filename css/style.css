@@ -1,24 +1,24 @@
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('/font/Helvetica Neue/HelveticaNeueBoldCondensed.eot');
-    src: local('Helvetica Neue Condensed Bold'), local('HelveticaNeueBoldCondensed'),
-    url('/font/Helvetica Neue/HelveticaNeueBoldCondensed.eot?#iefix') format('embedded-opentype'),
-    url('/font/Helvetica Neue/HelveticaNeueBoldCondensed.woff2') format('woff2'),
-    url('/font/Helvetica Neue/HelveticaNeueBoldCondensed.woff') format('woff'),
-    url('/font/Helvetica Neue/HelveticaNeueBoldCondensed.ttf') format('truetype');
-    font-weight: bold;
+    font-family: 'HelveticaNeueCyr';
+    src: url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.eot');
+    src: local('HelveticaNeueCyr-Medium'),
+    url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+    url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.woff') format('woff'),
+    url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
 }
+
 
 body {
     margin: 0;
     position: relative;
-    font: 15px Helvetica,  sans-serif;
+    font-family:  "Helvetica Neue", sans-serif ;
 }
 
 a {
     text-decoration: none;
-
 }
 
 main {
@@ -148,7 +148,7 @@ main {
 
 .profile-img {
     width: 132px;
-    border-radius: 999px;
+    border-radius: 50%;
     border: 3px solid white;
     transform: translate(0, -15px);
 }
@@ -196,7 +196,7 @@ main {
 
 .profile-row3 {
     border-top: 1px solid #CFD0D4;
-    padding: 0 30px;
+    margin: 0 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10px;
@@ -213,7 +213,7 @@ main {
     align-content: center;
     justify-content: center;
 }
-.menu-button button {
+.row3-section1 button {
     background-color: white;
     width: auto;
     height: 60px;
@@ -222,6 +222,9 @@ main {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    /*font-style: normal;*/
+    /*font-weight: 500;*/
+    /*font-size: 15px;*/
 }
 
 /*.menu-button:hover {*/
@@ -231,9 +234,7 @@ main {
 /*}*/
 
 .menu-button b {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
+
 
 }
 .menu-button:hover b {
@@ -249,21 +250,17 @@ main {
     grid-template-columns: repeat(4, auto);
     justify-self: end;
     grid-column-gap: 10px;
-}
-
-.button-gray {
     display: flex;
     align-items: center;
     justify-items: center;
-
 }
 
-.button-gray img{
+.row3-section2 img{
     width: 15px;
     height: 16px;
 }
 
-.button-gray button {
+.row3-section2 button {
     background-color: #E5E6EB;
     border-radius: 6px;
     height: 35px;
@@ -273,15 +270,15 @@ main {
     justify-content: center;
     cursor: pointer;
 }
-.button-gray .type1 button {
+.row3-section2 .type1 button {
     width: 110px;
 }
 
-.button-gray .type2 button {
+.row3-section2 .type2 button {
     width: 45px;
 }
 
-.button-gray b {
+.row3-section2 b {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
