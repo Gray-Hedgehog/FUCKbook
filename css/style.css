@@ -14,7 +14,7 @@
 body {
     margin: 0;
     position: relative;
-    font-family:  "Helvetica Neue", sans-serif ;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 a {
@@ -95,12 +95,15 @@ main {
 
 .right__info {
     display: grid;
-    grid-template-columns: 30px 1fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
 }
 
 .right__info span {
     margin-left: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .right__icons {
@@ -119,6 +122,9 @@ main {
     margin: 0 auto;
 }
 
+.wrapper {
+    height: 100vh;
+}
 
 .profile-container {
     width: 100%;
@@ -141,7 +147,7 @@ main {
 
 .profile-row2 {
     display: grid;
-    grid-template-columns: auto 1fr auto ;
+    grid-template-columns: auto 1fr 1fr;
     grid-column-gap: 28px;
     padding: 0 30px;
 }
@@ -153,41 +159,43 @@ main {
     transform: translate(0, -15px);
 }
 
-.profile-img img{
+.profile-img img {
     width: 100%;
 
 }
-.profile-info{
+
+.profile-info {
     display: grid;
     grid-template-rows: auto auto;
     grid-row-gap: 5px;
     align-content: center;
 }
-.profile-info h1{
+
+.profile-info h1 {
     margin: 0;
     font-weight: bold;
     font-size: 28px
 }
 
-.profile-info span{
+.profile-info span {
     font-weight: normal;
     font-size: 17px;
     color: #66676B;
 }
 
 
-.profile-button{
+.profile-button {
     display: grid;
     grid-template-columns: 1fr;
     align-items: end;
-    justify-self: end;
+    justify-items: end;
     padding-bottom: 25px;
 
 }
 
-.profile-button button{
+.profile-button button {
     background-color: #0572EF;
-    width: 310px;
+    width: calc(100% - 16px);
     height: 40px;
     border: none;
     border-radius: 6px;
@@ -198,6 +206,8 @@ main {
     color: white;
     font-size: 17px;
     padding-left: 6px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -220,6 +230,7 @@ main {
     align-content: center;
     justify-content: center;
 }
+
 .row3-section1 button {
     background-color: white;
     width: auto;
@@ -229,9 +240,10 @@ main {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    /*font-style: normal;*/
-    /*font-weight: 500;*/
-    /*font-size: 15px;*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #66676B;
 }
 
 /*.menu-button:hover {*/
@@ -244,6 +256,7 @@ main {
 
 
 }
+
 .menu-button:hover b {
     color: #0572EF;
 }
@@ -263,7 +276,7 @@ main {
 
 }
 
-.row3-section2 img{
+.row3-section2 img {
     width: 15px;
     height: 16px;
 }
@@ -281,6 +294,7 @@ main {
     font-size: 15px;
     padding-left: 5px;
 }
+
 .row3-section2 .type1 button {
     width: 110px;
 }
@@ -288,7 +302,6 @@ main {
 .row3-section2 .type2 button {
     width: 45px;
 }
-
 
 
 .grid-wrapper {
