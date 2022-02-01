@@ -1,20 +1,27 @@
 @font-face {
     font-family: 'HelveticaNeueCyr';
-    src: url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.eot');
+    src: url('/font/HelveticaNeueCyr-Medium.eot');
     src: local('HelveticaNeueCyr-Medium'),
-    url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
-    url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.woff2') format('woff2'),
-    url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.woff') format('woff'),
-    url('/font/Helvetica Neue/HelveticaNeueCyr-Medium.ttf') format('truetype');
+    url('/font/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/font/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+    url('/font/HelveticaNeueCyr-Medium.woff') format('woff'),
+    url('/font/HelveticaNeueCyr-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
+html{
+    box-sizing: border-box;
+}
+
+*:after, *:before {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
     position: relative;
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "HelveticaNeue", sans-serif;
 }
 
 a {
@@ -182,7 +189,7 @@ main {
 
 .profile-info h1 {
     margin: 0;
-    font-weight: bold;
+
     font-size: 28px;
     font-style: normal;
 }
