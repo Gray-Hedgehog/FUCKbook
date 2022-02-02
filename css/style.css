@@ -191,6 +191,7 @@ main {
     align-items: end;
     justify-items: end;
 }
+
 .profile-button img {
     width: 16px;
     height: 16px;
@@ -237,17 +238,14 @@ main {
     grid-template-columns: repeat(5, auto);
 }
 
-.menu-button {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
 
 .row3-section1 button {
     display: flex;
     width: auto;
     height: 60px;
+    position: relative;
     border: none;
+    box-sizing: content-box;
     align-items: center;
     justify-content: center;
     font-style: normal;
@@ -258,11 +256,34 @@ main {
     cursor: pointer;
 }
 
-/*.menu-button:hover {*/
-/*    color: #0572EF;*/
-/*    border-bottom: 3px solid #0572EF;*/
-/*    box-sizing: border-box;*/
-/*}*/
+
+
+.masked::after{
+    content: '';
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    right:0;
+    /*transform: translateY(-50%);*/
+    background-color: green;
+    mask-image: url("../img/icons/more-gray.png");
+}
+.masked:hover:after{
+    /*content: url("/img/icons/more_gray.svg");*/
+    content: '';
+    position: relative;
+    /*top: -4px;*/
+    /*left:45px;*/
+    /*top: auto;*/
+    width: 9px;
+    height: 5px;
+    /*mask-image: url("/img/icons/more_gray.svg");*/
+    /*mask-position: top right;*/
+    /*background: url("/img/icons/more_gray.svg");*/
+    background-color:  green;
+}
+
 
 .row3-section2 {
     display: grid;
