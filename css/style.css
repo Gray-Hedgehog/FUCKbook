@@ -257,32 +257,44 @@ main {
 }
 
 
+.masked::after {
+    content: '';
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    right:5px;
+    transform: translateY(-50%);
+    background-color: #66676B;
+    -webkit-mask-image: url("../img/icons/more_gray.svg");
+}
 
-.masked::after{
+.masked:hover::after {
     content: '';
     width: 9px;
     height: 5px;
     position: absolute;
     top: 50%;
     right:0;
-    /*transform: translateY(-50%);*/
-    background-color: green;
-    mask-image: url("../img/icons/more-gray.png");
+    transform: translateY(-50%);
+    background-color: blue;
+    -webkit-mask-image: url("../img/icons/more_gray.svg");
 }
-.masked:hover:after{
-    /*content: url("/img/icons/more_gray.svg");*/
-    content: '';
-    position: relative;
-    /*top: -4px;*/
-    /*left:45px;*/
-    /*top: auto;*/
-    width: 9px;
-    height: 5px;
-    /*mask-image: url("/img/icons/more_gray.svg");*/
-    /*mask-position: top right;*/
-    /*background: url("/img/icons/more_gray.svg");*/
-    background-color:  green;
-}
+
+/*.masked:hover:after{*/
+/*    !*content: url("/img/icons/more_gray.svg");*!*/
+/*    content: '';*/
+/*    position: relative;*/
+/*    !*top: -4px;*!*/
+/*    !*left:45px;*!*/
+/*    !*top: auto;*!*/
+/*    width: 9px;*/
+/*    height: 5px;*/
+/*    !*mask-image: url("/img/icons/more_gray.svg");*!*/
+/*    !*mask-position: top right;*!*/
+/*    !*background: url("/img/icons/more_gray.svg");*!*/
+/*    background-color:  green;*/
+/*}*/
 
 
 .row3-section2 {
