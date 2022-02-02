@@ -1,14 +1,4 @@
-@font-face {
-    font-family: 'HelveticaNeueCyr';
-    src: url('/font/HelveticaNeueCyr-Medium.eot');
-    src: local('HelveticaNeueCyr-Medium'),
-    url('/font/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
-    url('/font/HelveticaNeueCyr-Medium.woff2') format('woff2'),
-    url('/font/HelveticaNeueCyr-Medium.woff') format('woff'),
-    url('/font/HelveticaNeueCyr-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
+
 
 html{
     box-sizing: border-box;
