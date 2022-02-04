@@ -131,6 +131,13 @@ main {
 
 .wrapper {
     width: 100%;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*height: 100vh;*/
+}
+
+.container {
+
 }
 
 .profile-container {
@@ -151,19 +158,14 @@ main {
 
 .profile-row1 {
     display: flex;
-    --profile-cover-width: 97%;
+    --profile-cover-width: 100%;
     --profile-header-padding: 15px;
-    width: calc(var(--profile-cover-width) + var(--profile-header-padding) * 2);
-    margin: 0 auto;
-    /*padding:  0 15px;*/
-    justify-content: center;
-    /*width: 100%;*/
+    width: calc(var(--profile-cover-width) - var(--profile-header-padding) * 2);
+    padding:  0 15px;
+
 }
 
 .profile-row1 img {
-    /*--profile-cover-width: 100%;*/
-    /*--profile-header-padding: 10px;*/
-    /*width: calc(var(--profile-cover-width) + var(--profile-header-padding) * 2);*/
     width: 100%;
 }
 
