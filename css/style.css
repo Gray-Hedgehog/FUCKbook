@@ -16,6 +16,7 @@ body {
 button {
     font-family: "HelveticaNeueCyr", "Helvetica Neue", sans-serif;
 }
+
 input {
     font-family: "HelveticaNeueCyr", "Helvetica Neue", sans-serif;
 }
@@ -161,7 +162,7 @@ main {
     --profile-cover-width: 100%;
     --profile-header-padding: 15px;
     width: calc(var(--profile-cover-width) - var(--profile-header-padding) * 2);
-    padding:  0 15px;
+    padding: 0 15px;
 
 }
 
@@ -366,10 +367,11 @@ main {
 
 .row3-section2 .type1 button {
     display: grid;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(2, auto);
     width: 110px;
 }
-.row3-section2 .type1 button::before{
+
+.row3-section2 .type1 button::before {
     content: '';
     width: 16px;
     height: 15px;
@@ -381,7 +383,7 @@ main {
     mask-image: url("../img/icons/like.svg");
 }
 
-.row3-section2 .type1 button:active::before{
+.row3-section2 .type1 button:active::before {
     content: '';
     width: 16px;
     height: 15px;
@@ -431,6 +433,7 @@ main {
 
 .side-row {
     display: flex;
+    flex-direction: column;
     align-self: start;
     /*justify-self: start;*/
     background-color: white;
@@ -438,6 +441,50 @@ main {
     border-radius: 8px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
+
+.side-title {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.side-title a {
+    justify-self: end;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #0572EF;
+}
+
+
+.map {
+    padding-top: 14px;
+    /*border-radius: 50%;*/
+}
+
+.side-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-auto-rows: auto;
+    grid-column-gap: 12px;
+    grid-row-gap: 14px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.closed {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #DE3F4F;
+}
+
 
 .grid-content {
     display: grid;
