@@ -475,6 +475,7 @@ main {
     grid-row-gap: 14px;
     padding-top: 18px;
     padding-bottom: 10px;
+    align-content: start;
 }
 
 .closed {
@@ -484,7 +485,15 @@ main {
     line-height: 20px;
     color: #DE3F4F;
 }
-
+.industry {
+    display: flex;
+}
+.dot {
+    width: 2px;
+    height: 2px;
+    align-items: center;
+    justify-items: center;
+}
 
 .grid-content {
     display: grid;
