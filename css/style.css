@@ -417,7 +417,7 @@ main {
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns:  361px auto;
+    grid-template-columns:  360px auto;
     grid-column-gap: 15px;
     max-width: 878px;
     padding-top: 15px;
@@ -436,7 +436,7 @@ main {
 .side-row {
     display: grid;
     grid-template-columns: 1fr;
-    grid-row-gap: 15px;
+    grid-row-gap: 16px;
     /*align-self: start;*/
     /*justify-self: start;*/
     background-color: white;
@@ -527,11 +527,13 @@ main {
 .side-row .photos {
     display: flex;
     flex-wrap: wrap;
-    grid-gap: 5px;
-    width: calc(105px + 5px + 105px + 5px + 105px);
-    border-radius: 8px;
-    overflow: hidden;
+    width: 100%;
+    height: calc(100% + 7px);
     box-sizing: content-box;
+    border-radius: 8px;
+    align-content: space-between;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .photos-img {
