@@ -537,8 +537,8 @@ main {
 }
 
 .photos-img {
-    width: 105px;
-    height: 105px;
+    width: 106px;
+    height: 106px;
     object-fit: cover;
     object-position: top;
     box-sizing: border-box;
