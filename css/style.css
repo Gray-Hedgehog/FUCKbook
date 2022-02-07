@@ -452,6 +452,7 @@ main {
 .side-title {
     display: grid;
     grid-template-columns: auto 1fr;
+
     align-items: end;
     font-style: normal;
     font-weight: bold;
@@ -542,24 +543,31 @@ main {
 .only-fans img:nth-of-type(8) {
     right: 0;
 }
+
 .only-fans img:nth-of-type(7) {
     right: 5px;
 }
+
 .only-fans img:nth-of-type(6) {
     right: 10px;
 }
+
 .only-fans img:nth-of-type(5) {
     right: 15px;
 }
+
 .only-fans img:nth-of-type(4) {
     right: 20px;
 }
+
 .only-fans img:nth-of-type(3) {
     right: 25px;
 }
+
 .only-fans img:nth-of-type(2) {
     right: 30px;
 }
+
 .only-fans img:nth-of-type(1) {
     right: 35px;
 }
@@ -569,7 +577,8 @@ main {
     flex-direction: row-reverse;
     position: relative;
 }
-.more-friends img:nth-of-type(2){
+
+.more-friends img:nth-of-type(2) {
     width: 13px;
     height: 3px;
     border: none;
@@ -577,13 +586,9 @@ main {
     transform: translate(0, 14px);
 }
 
-.more-friends img:nth-of-type(1){
+.more-friends img:nth-of-type(1) {
     right: 55px;
 }
-
-
-
-
 
 
 .side-row .photos {
@@ -601,22 +606,95 @@ main {
     width: 108px;
     height: 108px;
     object-fit: cover;
-    background-color: black;
 }
 
-.youtube-video {
+.video-youtube {
     width: 100%;
     height: 185px;
     border-radius: 8px;
     overflow: hidden;
 }
 
+.video {
+    display: flex;
+    flex-direction: column;
+}
 
+.video-content {
+    margin-top: 7px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
 
+.video-like {
+    display: flex;
+    margin-top: 9px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+}
 
+.number {
+    margin-left: 10px;
+}
 
+.video-views {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.025em;
+    color: #66676B;
+}
 
+.small-facebook img {
+    margin-right: 8px;
+    transform: translateY(3px);
+}
 
+.side-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-paragraph {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #66676B;
+}
+
+.black-flag {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background-color: #F1F2F5;
+}
+
+.page-created {
+    display: flex;
+    margin-top: 11px;
+}
+
+.black-flag img {
+    position: relative;
+    top: 11px;
+    left: 12px;
+}
+
+.created-date {
+    margin-left: 11px;
+    align-self: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+}
 
 .grid-content {
     display: grid;
