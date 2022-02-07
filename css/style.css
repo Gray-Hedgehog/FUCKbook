@@ -540,7 +540,7 @@ main {
 }
 
 .only-fans img:nth-of-type(8) {
-    right: 0px;
+    right: 0;
 }
 .only-fans img:nth-of-type(7) {
     right: 5px;
@@ -603,7 +603,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /*height: 220px;*/
     box-sizing: border-box;
     border-radius: 8px;
     overflow: hidden;
