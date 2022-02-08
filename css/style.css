@@ -210,7 +210,6 @@ main {
 
 .profile-button {
     display: grid;
-    padding-bottom: 25px;
     align-items: end;
     justify-items: end;
 }
@@ -230,6 +229,7 @@ main {
     width: 100%;
     max-width: 312px;
     height: 40px;
+    margin-bottom: 25px;
     padding-left: 6px;
     border: none;
     border-radius: 6px;
@@ -706,11 +706,15 @@ main {
 
 .content-row {
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 11px;
 }
 
-.content-row b {
+.title-post {
     text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #66676B;
 }
 
 .content-card {
@@ -732,7 +736,7 @@ main {
     grid-gap: 12px;
 }
 
-.create-row1 img {
+.avatar-small {
     width: 41px;
     height: 41px;
     object-fit: cover;
@@ -759,7 +763,6 @@ main {
 }
 
 
-
 .create-row2 label {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -774,6 +777,55 @@ main {
     color: #66676B;
 }
 
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
 
+.post-wrapper {
+    margin: 13px 17px 11px 16px;
+}
 
+.header-left {
+    display: flex;
+}
 
+.header-left .avatar-small {
+    margin-right: 7px;
+}
+
+.header-left .name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #66676B;
+}
+
+.header-left .name b {
+    color: #080808;
+}
+
+.header-left .date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.025em;
+    color: #66676B;
+}
+
+.header-left .date img {
+    transform: translateY(2px);
+}
+
+.card-paragraph {
+    margin: 9px 11px 6px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #080808;
+}
