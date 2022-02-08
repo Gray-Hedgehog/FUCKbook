@@ -718,3 +718,62 @@ main {
     border-radius: 8px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
+
+.post-create {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    margin: 12px 12px 20px 12px;
+}
+
+.create-row1 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 12px;
+}
+
+.create-row1 img {
+    width: 41px;
+    height: 41px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.create-row1 button {
+    width: 100%;
+    max-width: 424px;
+    height: 41px;
+    background-color: #E5E6EB;
+    border: none;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.create-row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+
+
+.create-row2 label {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 20px;
+    grid-gap: 10px;
+
+    justify-self: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #66676B;
+}
+
+
+
+
