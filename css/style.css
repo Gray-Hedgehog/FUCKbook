@@ -782,8 +782,8 @@ main {
     justify-content: space-between;
 }
 
-.post-wrapper {
-    margin: 13px 17px 11px 16px;
+.wrapper-top {
+    margin: 13px 16px 0 16px;
 }
 
 .header-left {
@@ -821,7 +821,7 @@ main {
 }
 
 .card-paragraph {
-    margin: 9px 11px 6px 0;
+    margin: 9px 11px 0 0;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -829,3 +829,99 @@ main {
     letter-spacing: -0.02em;
     color: #080808;
 }
+
+.post-picture {
+    margin-top: 20px;
+    box-sizing: content-box;
+    max-width: 503px;
+    width: 100%;
+}
+
+.wrapper-bottom {
+    margin: 13px 16px 11px 16px;
+}
+
+
+.post-like {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #66676B;
+}
+
+.who-is {
+    display: flex;
+}
+
+.post-emojis {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+
+}
+
+.post-emojis img {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+.post-emojis img:nth-of-type(6) {
+    right: 3px;
+}
+
+.post-emojis img:nth-of-type(5) {
+    right: 6px;
+}
+
+.post-emojis img:nth-of-type(4) {
+    right: 9px;
+}
+
+.post-emojis img:nth-of-type(3) {
+    right: 12px;
+}
+
+.post-emojis img:nth-of-type(2) {
+    right: 15px;
+}
+
+.post-emojis img:nth-of-type(1) {
+    right: 18px;
+}
+
+.who-text {
+    position: relative;
+    left: -10px;
+}
+
+.post-comment {
+    text-align: right;
+}
+
+.like-content {
+    display: flex;
+    width: 100%;
+    border-top: #CFD0D4 solid 1px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
